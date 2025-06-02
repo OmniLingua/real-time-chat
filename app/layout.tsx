@@ -9,7 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "ChatFlow - Real-time Chat Application",
   description: "Connect, chat, and collaborate in real-time with channels and embedding support",
-  generator: "v0.dev",
+  icons : {
+    icon: "/favicon.ico",
+  }
 }
 
 export default function RootLayout({
