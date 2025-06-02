@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "ChatFlow - Real-time Chat Application",
   description: "Connect, chat, and collaborate in real-time with channels and embedding support",
   icons : {
-    icon: "/favicon.ico",
+    icon: "https://github.com/OmniLingua/real-time-chat/blob/main/public/chat-icon.png?raw=true",
   }
 }
 
