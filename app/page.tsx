@@ -117,8 +117,8 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-4 text-center">
           <div className="flex flex-col items-center p-4">
             <Globe className="h-8 w-8 text-blue-500 mb-2" />
-            <h3 className="font-semibold">Embeddable</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">Integrate into any website with iframe</p>
+            <h3 className="font-semibold">World-wide</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Online world wide accessibility</p>
           </div>
           <div className="flex flex-col items-center p-4">
             <Zap className="h-8 w-8 text-yellow-500 mb-2" />
@@ -130,12 +130,6 @@ export default function HomePage() {
             <h3 className="font-semibold">Collaborative</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">Multiple users, channels, and reactions</p>
           </div>
-        </div>
-
-        <div className="mt-8 text-center">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            Want to embed this chat? Use: <code className="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded">/embed</code>
-          </p>
         </div>
       </div>
     </div>
