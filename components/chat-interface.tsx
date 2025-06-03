@@ -25,6 +25,7 @@ import {
   X,
   Eye,
   AlertCircle,
+  MoreVertical,
 } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { useTheme } from "next-themes"
@@ -519,7 +520,7 @@ export default function ChatInterface({ username, channelId, channelName, isEmbe
           <div className="flex items-center gap-3">
             {!isEmbedded && (
               <Button variant="ghost" size="sm" onClick={() => setSidebarOpen(true)} className="lg:hidden">
-                <Users className="h-4 w-4" />
+                <MoreVertical  className="h-4 w-4" />
               </Button>
             )}
             <div>
